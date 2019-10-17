@@ -1,8 +1,10 @@
 'use strict';
 
-const validator = require('../lib/validator.js');
+const Validator = require('../lib/validator.js');
 
 describe('validator module performs basic validation of', () => {
+
+  const validator = new Validator();
 
   // TODO: Make this series of tests less repetitive ... DRY it out
 
